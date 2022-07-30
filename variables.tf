@@ -3,6 +3,11 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
+variable "instance_type" {
+  description = "The AWS region to create things in."
+
+}
+
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
   default     =  "Servers"
