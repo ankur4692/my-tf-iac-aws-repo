@@ -8,10 +8,6 @@ variable "key_name" {
   default     =  "Servers"
 }
 
-variable "instance_type" {
-
-}
-
 variable "security_group" {
   description = "Name of security group"
   default     = "my-jenkins-security-group"
