@@ -53,12 +53,3 @@ tags= {
     Name = "my_elastic_ip"
   }
 }
-resource "aws_s3_bucket" "b" {
-  bucket = "myawsbucket12345sdf554555"
-  acl    = "private"
-
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
