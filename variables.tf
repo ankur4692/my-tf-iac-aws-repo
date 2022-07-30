@@ -9,8 +9,7 @@ variable "key_name" {
 }
 
 variable "instance_type" {
-  description = "instance type for ec2"
-  default     =  "var.instance_type"
+
 }
 
 variable "security_group" {
