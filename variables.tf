@@ -14,7 +14,7 @@ variable "security_group" {
 }
 
 variable "instance_type" {
-
+  description = "Name of security group"
 }
 
 variable "tag_name" {
