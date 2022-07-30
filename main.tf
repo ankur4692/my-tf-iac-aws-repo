@@ -53,6 +53,3 @@ tags= {
     Name = "my_elastic_ip"
   }
 }
-variable "instance_type" {
-  
-}
