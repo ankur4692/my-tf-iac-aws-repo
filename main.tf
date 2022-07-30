@@ -54,7 +54,3 @@ tags= {
   }
 }
 
-
-variable "instance_type" {
-
-}
