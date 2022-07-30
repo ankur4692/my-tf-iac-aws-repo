@@ -8,7 +8,10 @@ variable "key_name" {
   default     =  "Servers"
 }
 
-
+variable "instance_type" {
+  description = "instance type for ec2"
+  default     =  "var.instance_type"
+}
 
 variable "security_group" {
   description = "Name of security group"
