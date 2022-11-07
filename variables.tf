@@ -3,8 +3,9 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
-variable "itype" {
+variable "Instance_Type" {
   description = "The AWS region to create things in."
+  type = string
   default = "t2.micro"
 }
 
