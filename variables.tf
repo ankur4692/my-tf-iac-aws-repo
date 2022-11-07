@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 
 variable "Instance_Type" {
-  type = string
+  default     = "t2.micro"
 }
 
 variable "key_name" {
