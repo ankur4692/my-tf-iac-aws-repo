@@ -4,9 +4,7 @@ variable "aws_region" {
 }
 
 variable "Instance_Type" {
-  description = "The AWS region to create things in."
   type = string
-  default = "t2.micro"
 }
 
 variable "key_name" {
